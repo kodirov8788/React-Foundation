@@ -1,0 +1,54 @@
+.card__conatiner {
+    width: 40%;
+    height: 50vh;
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+.card {
+    position: absolute;
+    top: 20px;
+    width: 90%;
+    height: 70%;
+    left: 5%;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 25px;
+}
+
+
+.card__textSet {
+    position: absolute;
+    bottom: 10px;
+    left: 48%;
+}
+
+.card__textSet div {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    font-size: 50px;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon1 {
+    display: block;
+}
+
+.icon2 {
+    display: none;
+}
+
+.icon3 {
+    display: none;
+}
